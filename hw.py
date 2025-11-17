@@ -4,7 +4,7 @@ root=Tk()
 root.geometry("500x500")
 root.title("Currency Converter")
 
-def change():
+def change(): 
     USD=USDentry.get()
     if(USD.replace(".","").isnumeric()):
         noticelabel.grid_forget()
